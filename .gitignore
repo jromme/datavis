@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 node_modules/
 dist/
 ds_store/
-=======
-/node_modules
-/dist
-/ds_store
-/dist/app.bundle.js
-/dist/index.html
->>>>>>> caf172522c50f0cde11e91b343b2f7968abcb4d1
+
