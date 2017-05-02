@@ -42,18 +42,5 @@ body {
     flex: 1 1 auto;
     overflow: auto;
     margin: 0 20px 20px;
-
-    svg {
-      width: 100%;
-      height: $svgheight;
-      transform: translate(9%, 6%);
-      g {
-        path {
-          stroke: white;
-          fill: grey;
-        }
-      }
-    }
-
   }
 }
