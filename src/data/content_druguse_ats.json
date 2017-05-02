@@ -1,114 +1,114 @@
 [
   {
     "Country": "Belgium",
-    "Total overall": null
+    "Total_overall_per_10k": "Insufficient data"
   },
   {
     "Country": "Bulgaria",
-    "Total overall": 6.6
+    "Total_overall_per_10k": 6.6
   },
   {
     "Country": "Croatia",
-    "Total overall": 13.7
+    "Total_overall_per_10k": 13.7
   },
   {
     "Country": "Cyprus",
-    "Total overall": 6
+    "Total_overall_per_10k": 6
   },
   {
     "Country": "Czech Republic",
-    "Total overall": 106.9
+    "Total_overall_per_10k": 106.9
   },
   {
     "Country": "Denmark",
-    "Total overall": 9.8
+    "Total_overall_per_10k": 9.8
   },
   {
     "Country": "Estonia",
-    "Total overall": null
+    "Total_overall_per_10k": "Insufficient data"
   },
   {
     "Country": "Finland",
-    "Total overall": 25.3
+    "Total_overall_per_10k": 25.3
   },
   {
     "Country": "France",
-    "Total overall": 6.6
+    "Total_overall_per_10k": 6.6
   },
   {
     "Country": "Germany",
-    "Total overall": 8.8
+    "Total_overall_per_10k": 8.8
   },
   {
     "Country": "Greece",
-    "Total overall": 1.8
+    "Total_overall_per_10k": 1.8
   },
   {
     "Country": "Hungary",
-    "Total overall": 19.6
+    "Total_overall_per_10k": 19.6
   },
   {
     "Country": "Ireland",
-    "Total overall": 30.8
+    "Total_overall_per_10k": 30.8
   },
   {
     "Country": "Italy",
-    "Total overall": 12.3
+    "Total_overall_per_10k": 12.3
   },
   {
     "Country": "Latvia",
-    "Total overall": 12.5
+    "Total_overall_per_10k": 12.5
   },
   {
     "Country": "Lithuania",
-    "Total overall": 5.6
+    "Total_overall_per_10k": 5.6
   },
   {
     "Country": "Luxembourg",
-    "Total overall": null
+    "Total_overall_per_10k": "Insufficient data"
   },
   {
     "Country": "Malta",
-    "Total overall": null
+    "Total_overall_per_10k": "Insufficient data"
   },
   {
     "Country": "Netherlands",
-    "Total overall": 22.5
+    "Total_overall_per_10k": 22.5
   },
   {
     "Country": "Norway",
-    "Total overall": 41.8
+    "Total_overall_per_10k": 41.8
   },
   {
     "Country": "Poland",
-    "Total overall": 40.5
+    "Total_overall_per_10k": 40.5
   },
   {
     "Country": "Portugal",
-    "Total overall": 4.5
+    "Total_overall_per_10k": 4.5
   },
   {
     "Country": "Romania",
-    "Total overall": 2.2
+    "Total_overall_per_10k": 2.2
   },
   {
     "Country": "Slovakia",
-    "Total overall": 7
+    "Total_overall_per_10k": 7
   },
   {
     "Country": "Slovenia",
-    "Total overall": 5.3
+    "Total_overall_per_10k": 5.3
   },
   {
     "Country": "Spain",
-    "Total overall": null
+    "Total_overall_per_10k": "Insufficient data"
   },
   {
     "Country": "Sweden",
-    "Total overall": null
+    "Total_overall_per_10k": "Insufficient data"
   },
   {
     "Country": "United Kingdom",
-    "Total overall": 12.1
+    "Total_overall_per_10k": 12.1
   }
 ]
