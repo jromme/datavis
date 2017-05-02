@@ -1,0 +1,12 @@
+
+.main-nav {
+  display: flex;
+  ul {
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+}

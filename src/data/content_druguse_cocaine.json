@@ -1,0 +1,114 @@
+[
+  {
+    "Country": "Belgium",
+    "Per 10k": null,
+  },
+  {
+    "Country": "Bulgaria",
+    "Per 10k": 1.7
+  },
+  {
+    "Country": "Croatia",
+    "Per 10k": 4.8
+  },
+  {
+    "Country": "Cyprus",
+    "Per 10k": 3.7
+  },
+  {
+    "Country": "Czech Republic",
+    "Per 10k": 10.3
+  },
+  {
+    "Country": "Denmark",
+    "Per 10k": 5
+  },
+  {
+    "Country": "Estonia",
+    "Per 10k": null
+  },
+  {
+    "Country": "Finland",
+    "Per 10k": 6.1
+  },
+  {
+    "Country": "France",
+    "Per 10k": 4
+  },
+  {
+    "Country": "Germany",
+    "Per 10k": 3.7
+  },
+  {
+    "Country": "Greece",
+    "Per 10k": 1.6
+  },
+  {
+    "Country": "Hungary",
+    "Per 10k": 3.3
+  },
+  {
+    "Country": "Ireland",
+    "Per 10k": 13.3
+  },
+  {
+    "Country": "Italy",
+    "Per 10k": 11.5
+  },
+  {
+    "Country": "Latvia",
+    "Per 10k": 3.3
+  },
+  {
+    "Country": "Lithuania",
+    "Per 10k": 1.9
+  },
+  {
+    "Country": "Luxembourg",
+    "Per 10k": null
+  },
+  {
+    "Country": "Malta",
+    "Per 10k": null
+  },
+  {
+    "Country": "Netherlands",
+    "Per 10k": 8.7
+  },
+  {
+    "Country": "Norway",
+    "Per 10k": 27.9
+  },
+  {
+    "Country": "Poland",
+    "Per 10k": 11.5
+  },
+  {
+    "Country": "Portugal",
+    "Per 10k": 2.2
+  },
+  {
+    "Country": "Romania",
+    "Per 10k": 1.1
+  },
+  {
+    "Country": "Slovakia",
+    "Per 10k": 1.5
+  },
+  {
+    "Country": "Slovenia",
+    "Per 10k": 2.8
+  },
+  {
+    "Country": "Spain",
+    "Per 10k": 4.5
+  },
+  {
+    "Country": "Sweden",
+    "Per 10k": null
+  },
+  {
+    "Country": "United Kingdom",
+    "Per 10k": 4.9
+  }
+]

@@ -1,0 +1,32 @@
+$font-size-h1: 30px;
+$font-size-h2: 20px;
+$font-size-p1: 18px;
+
+.alda, p {
+  font-family: 'alda';
+  font-weight: 300;
+  font-style: normal;
+  font-size: $font-size-p1;
+  color: $font-color;
+  margin: 0;
+  padding: 0;
+}
+
+.rifth1, h1{
+  font-family: 'rift-soft';
+  font-weight: 700;
+  font-style: normal;
+  font-size: $font-size-h1;
+  color: $font-color;
+}
+
+.rifth2, h2{
+  font-family: 'rift-soft';
+  font-weight: 300;
+  font-style: normal;
+  font-size: $font-size-h2;
+  color: $font-color;
+}
+
+
+

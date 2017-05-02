@@ -1,0 +1,16 @@
+
+@mixin f-center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin v-center() {
+  display: flex;
+  align-items: center;
+}
+
+@mixin h-center() {
+  display: flex;
+  justify-content: center;
+}
