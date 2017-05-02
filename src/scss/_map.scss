@@ -1,0 +1,17 @@
+$translate-diff: 9%;
+
+.map {
+  margin-bottom: $translate-diff;
+  svg {
+    z-index: 1;
+    width: 100%;
+    height: $svgheight;
+    transform: translate(#{$translate-diff}, 6%);
+    g {
+      path {
+        stroke: white;
+        fill: grey;
+      }
+    }
+  }
+}
