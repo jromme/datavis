@@ -1,8 +1,7 @@
 
-$maxwidth: 1200px;
+$maxwidth: 1400px;
 $centerwidth: 800px;
-$sideswidth: 200px;
-$svgheight: 800px;
+$sideswidth: 300px;
 
 ::-webkit-scrollbar {
   width: 0px;
@@ -26,9 +25,8 @@ body {
   
   .side {
     background-color: $sides-color;
-    @include v-center;
-    @include h-center;
     flex: 1 0 $sideswidth;
+    max-width: $sideswidth;
   }
   .rightside {
     border-left: 1px solid $color-grey;

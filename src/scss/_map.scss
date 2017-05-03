@@ -1,4 +1,5 @@
 $translate-diff: 9%;
+$svgheight: 700px;
 
 .map {
   margin-bottom: $translate-diff;
@@ -6,7 +7,7 @@ $translate-diff: 9%;
     z-index: 1;
     width: 100%;
     height: $svgheight;
-    transform: translate(#{$translate-diff}, 6%);
+    transform: translate(#{$translate-diff}, 3%);
     g {
       path {
         stroke: white;
