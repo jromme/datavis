@@ -1,11 +1,11 @@
 const css = require('./app.scss');
 import axios from 'axios'
 
-let stateLeft = 1;
-let stateRight = 1;
+let stateLeft = 0;
+let stateRight = 0;
 
 function handleStates(state){
-  console.log(state)
+  console.log(stateLeft, stateRight)
   switch(state) {
     case 0:
     return `<p class="rifth1">Click here to activiate the first filter</p>`
@@ -18,6 +18,9 @@ function handleStates(state){
     case 2:
     return  `<span class='close' /><p class="rifth1">Click inside the filter to reset it</p>`
       break;
+
+    case 3:
+    return `<p class="rifth1">Now click on one of the filter items</p>`
 
     default:
       console.log(`Error. State ${state} not defined`)
@@ -41,16 +44,17 @@ function getJSON(data) {
         </p>`
       )
 
-      console.log(stateLeft, stateRight);
-
+      //leftside 
       if (stateLeft === 1) {
         selector = document.querySelector('#leftside')
-        stateLeft = 2
-        console.log(stateLeft, 'if')
       } else if (stateLeft === 2) {
         selector = document.querySelector('#leftside')
-        stateLeft = 1
-        console.log(stateLeft, 'else if')
+      } 
+      //rightside
+      if (stateRight === 1) {
+        selector = document.querySelector('#rightside')
+      } else if (stateRight === 2) {
+        selector = document.querySelector('#rightside')
       } 
 
       if (stateLeft === 2 || stateRight === 2) {
@@ -144,22 +148,30 @@ function navHandling() {
 
 navHandling()
 const sides = document.querySelectorAll('.side')
+const nav = document.querySelector('#nav-all')
+
 sides.forEach((side) => {
   side.addEventListener('click', (e) => {
     console.log(e.target)
     let selector;
     if (e.target.id === 'leftside' || e.target.id === 'rightside') {
-      selector = e.target.id 
+      selector = e.target.id
+      e.target.classList.add('active')
     } else if (e.target.parentElement.id === 'leftside' || e.target.parentElement.id === 'rightside') {
-      selector = e.target.parentElement.id;
+      selector = e.target.parentElement.id
     } else if (e.target.parentElement.parentElement.id === 'leftside' || e.target.parentElement.parentElement.id === 'rightside') {
-      selector = e.target.parentElement.parentElement.id;
+      selector = e.target.parentElement.parentElement.id
     }
 
     selector === 'leftside' 
-      ? document.querySelector(`#${selector}`).innerHTML = handleStates(stateLeft == 1 ? stateLeft++ : stateLeft--)
-      : document.querySelector(`#${selector}`).innerHTML = handleStates(stateRight == 1 ? stateRight++ : stateRight--)
+      ? document.querySelector(`#${selector}`).innerHTML = handleStates(stateLeft == 0 ? stateLeft = 1 : stateLeft = 3)
+      : document.querySelector(`#${selector}`).innerHTML = handleStates(stateRight == 0 ? stateRight = 1 : stateRight = 3)
   })
+})
+
+nav.addEventListener('click', (e) => {
+  if (handleStates(stateLeft == 1 )) {document.querySelector(`#leftside`).innerHTML = handleStates(stateLeft = 2)}
+  if (handleStates(stateRight == 1)) {document.querySelector(`#rightside`).innerHTML = handleStates(stateRight = 2)} 
 })
 
 window.addEventListener('load', () => {
@@ -167,6 +179,8 @@ window.addEventListener('load', () => {
     side.innerHTML = handleStates(0)
   })
 })
+
+// #TODO unfuck alles plz
 
 
 
