@@ -1,13 +1,38 @@
 const css = require('./app.scss');
 import axios from 'axios'
 
+let stateLeft = 1;
+let stateRight = 1;
+
+function handleStates(state){
+  console.log(state)
+  switch(state) {
+    case 0:
+    return `<p class="rifth1">Click here to activiate the first filter</p>`
+      break;
+
+    case 1:
+    return `<p class="rifth1">Now click on one of the filter items</p>`
+      break;
+
+    case 2:
+    return  `<span class='close' /><p class="rifth1">Click inside the filter to reset it</p>`
+      break;
+
+    default:
+      console.log(`Error. State ${state} not defined`)
+  }
+}
+
+
+
 // GET JSON FILES
-function getJSON(data, element) {
+function getJSON(data) {
   axios.get(data)
     .then((resolve) => {
       console.log(resolve.data)
 
-      let content
+      let content, selector;
 
       resolve.data.map((item) =>
         content += 
@@ -16,7 +41,22 @@ function getJSON(data, element) {
         </p>`
       )
 
-      element.innerHTML = content;
+      console.log(stateLeft, stateRight);
+
+      if (stateLeft === 1) {
+        selector = document.querySelector('#leftside')
+        stateLeft = 2
+        console.log(stateLeft, 'if')
+      } else if (stateLeft === 2) {
+        selector = document.querySelector('#leftside')
+        stateLeft = 1
+        console.log(stateLeft, 'else if')
+      } 
+
+      if (stateLeft === 2 || stateRight === 2) {
+        selector.innerHTML += content
+        selector.classList.add(data.replace('./data/', '').replace('.json', ''))
+      }
     })
 }
 
@@ -27,78 +67,73 @@ function navHandling() {
     switch(e.target.id) {
       //drug use
       case 'nav-druguse':
-        getJSON('./data/content_druguse.json', document.querySelector('#content'))
+        getJSON('./data/content_druguse.json')
         break;
  
       case 'nav-druguse-ats':
-        getJSON('./data/content_druguse_ats.json', document.querySelector('#content'))
+        getJSON('./data/content_druguse_ats.json')
         break;
 
       case 'nav-druguse-cocaine':
-        getJSON('./data/content_druguse_cocaine.json', document.querySelector('#content'))
+        getJSON('./data/content_druguse_cocaine.json')
         break;
 
       case 'nav-druguse-cannabis':
-        getJSON('./data/content_druguse_cannabis.json', document.querySelector('#content'))
+        getJSON('./data/content_druguse_cannabis.json')
         break;
 
       //happiness
       case 'nav-happiness':
-        getJSON('./data/content_happiness.json', document.querySelector('#content'))
+        getJSON('./data/content_happiness.json')
         break;
 
       //overdose deaths
       case 'nav-overdose-deaths':
-        console.log('clicked')
-        getJSON('./data/content_overdose-deaths.json', document.querySelector('#content'))
+        getJSON('./data/content_overdose-deaths.json')
         break;
 
       //price
       case 'nav-price':
-        getJSON('./data/content_price.json', document.querySelector('#content'))
+        getJSON('./data/content_price.json')
         break;
 
       case 'nav-price-ats':
-        getJSON('./data/content_price_ats.json', document.querySelector('#content'))
+        getJSON('./data/content_price_ats.json')
         break;
 
       case 'nav-price-cocaine':
-        getJSON('./data/content_price_cocaine.json', document.querySelector('#content'))
+        getJSON('./data/content_price_cocaine.json')
         break;
 
       case 'nav-price-cannabis':
-        getJSON('./data/content_price_cannabis.json', document.querySelector('#content'))
+        getJSON('./data/content_price_cannabis.json')
         break;
 
       case 'nav-price-heroin':
-        getJSON('./data/content_price_heroin.json', document.querySelector('#content'))
+        getJSON('./data/content_price_heroin.json')
         break;
 
 
       //law offences
       case 'nav-law-offences':
-        getJSON('./data/content_offences_total.json', document.querySelector('#content'))
+        getJSON('./data/content_offences_total.json')
         break;
 
       case 'nav-law-offences-ats':
-        getJSON('./data/content_offences_ats.json', document.querySelector('#content'))
+        getJSON('./data/content_offences_ats.json')
         break;
 
       case 'nav-law-offences-cocaine':
-        getJSON('./data/content_offences_cocaine.json', document.querySelector('#content'))
+        getJSON('./data/content_offences_cocaine.json')
         break;
 
       case 'nav-law-offences-cannabis':
-        getJSON('./data/content_offences_cannabis.json', document.querySelector('#content'))
+        getJSON('./data/content_offences_cannabis.json')
         break;
 
       case 'nav-law-offences-heroin':
-        getJSON('./data/content_offences_heroin.json', document.querySelector('#content'))
+        getJSON('./data/content_offences_heroin.json')
         break;
-
-
-
-
 
       default:
         console.error('Nothing clicked')
@@ -108,3 +143,35 @@ function navHandling() {
 
 
 navHandling()
+const sides = document.querySelectorAll('.side')
+sides.forEach((side) => {
+  side.addEventListener('click', (e) => {
+    console.log(e.target)
+    let selector;
+    if (e.target.id === 'leftside' || e.target.id === 'rightside') {
+      selector = e.target.id 
+    } else if (e.target.parentElement.id === 'leftside' || e.target.parentElement.id === 'rightside') {
+      selector = e.target.parentElement.id;
+    } else if (e.target.parentElement.parentElement.id === 'leftside' || e.target.parentElement.parentElement.id === 'rightside') {
+      selector = e.target.parentElement.parentElement.id;
+    }
+
+    selector === 'leftside' 
+      ? document.querySelector(`#${selector}`).innerHTML = handleStates(stateLeft == 1 ? stateLeft++ : stateLeft--)
+      : document.querySelector(`#${selector}`).innerHTML = handleStates(stateRight == 1 ? stateRight++ : stateRight--)
+  })
+})
+
+window.addEventListener('load', () => {
+  document.querySelectorAll(`.side .instruction`).forEach((side) => {
+    side.innerHTML = handleStates(0)
+  })
+})
+
+
+
+
+// document.querySelector('.content_druguse .France').addEventListener('mouseenter', () => {
+//   // run function for france
+//   D3.run('france');
+// })
