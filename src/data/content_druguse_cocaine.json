@@ -1,7 +1,7 @@
 [
   {
     "Country": "Belgium",
-    "Total_overall_per_10k": "Insufficient data"
+    "Total_overall_per_10k": null
   },
   {
     "Country": "Bulgaria",
@@ -16,7 +16,7 @@
     "Total_overall_per_10k": 3.7
   },
   {
-    "Country": "Czech Republic",
+    "Country": "Czech",
     "Total_overall_per_10k": 10.3
   },
   {
@@ -25,7 +25,7 @@
   },
   {
     "Country": "Estonia",
-    "Total_overall_per_10k": "Insufficient data"
+    "Total_overall_per_10k": null
   },
   {
     "Country": "Finland",
@@ -65,11 +65,11 @@
   },
   {
     "Country": "Luxembourg",
-    "Total_overall_per_10k": "Insufficient data"
+    "Total_overall_per_10k": null
   },
   {
     "Country": "Malta",
-    "Total_overall_per_10k": "Insufficient data"
+    "Total_overall_per_10k": null
   },
   {
     "Country": "Netherlands",
@@ -101,10 +101,10 @@
   },
   {
     "Country": "Sweden",
-    "Total_overall_per_10k": "Insufficient data"
+    "Total_overall_per_10k": null
   },
   {
-    "Country": "United Kingdom",
+    "Country": "UK",
     "Total_overall_per_10k": 4.9
   }
 ]

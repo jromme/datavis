@@ -1,8 +1,9 @@
 [
   {
     "Country": "Belgium",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
+    "Population": "11409",
+    "2014": null,
+    "2013": null,
     "2012": 72,
     "2011": 94,
     "2010": 106,
@@ -15,6 +16,7 @@
   },
   {
     "Country": "Bulgaria",
+    "Population": "7145",
     "2014": 15,
     "2013": 21,
     "2012": 24,
@@ -29,6 +31,7 @@
   },
   {
     "Country": "Croatia",
+    "Population": "4314",
     "2014": 59,
     "2013": 48,
     "2012": 48,
@@ -43,6 +46,7 @@
   },
   {
     "Country": "Cyprus",
+    "Population": "1206",
     "2014": 6,
     "2013": 3,
     "2012": 5,
@@ -56,9 +60,10 @@
     "2004": 14
   },
   {
-    "Country": "Czech Republic",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
+    "Country": "Czech",
+    "Population": "10645",
+    "2014": null,
+    "2013": null,
     "2012": 38,
     "2011": 28,
     "2010": 55,
@@ -71,7 +76,8 @@
   },
   {
     "Country": "Denmark",
-    "2014": "Insufficient data",
+    "Population": "5644",
+    "2014": null,
     "2013": 235,
     "2012": 245,
     "2011": 301,
@@ -81,10 +87,11 @@
     "2007": 246,
     "2006": 227,
     "2005": 207,
-    "2004": "Insufficient data"
+    "2004": null
   },
   {
     "Country": "Estonia",
+    "Population": "1259",
     "2014": 98,
     "2013": 111,
     "2012": 170,
@@ -99,6 +106,7 @@
   },
   {
     "Country": "Finland",
+    "Population": "5498",
     "2014": 176,
     "2013": 201,
     "2012": 213,
@@ -113,8 +121,9 @@
   },
   {
     "Country": "France",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
+    "Population": "66836",
+    "2014": null,
+    "2013": null,
     "2012": 264,
     "2011": 340,
     "2010": 392,
@@ -127,6 +136,7 @@
   },
   {
     "Country": "Germany",
+    "Population": "80723",
     "2014": 1032,
     "2013": 1002,
     "2012": 944,
@@ -141,6 +151,7 @@
   },
   {
     "Country": "Greece",
+    "Population": "10773",
     "2014": 76,
     "2013": 73,
     "2012": 77,
@@ -155,6 +166,7 @@
   },
   {
     "Country": "Hungary",
+    "Population": "9875",
     "2014": 23,
     "2013": 31,
     "2012": 24,
@@ -169,7 +181,8 @@
   },
   {
     "Country": "Ireland",
-    "2014": "Insufficient data",
+    "Population": "4952",
+    "2014": null,
     "2013": 219,
     "2012": 189,
     "2011": 232,
@@ -183,6 +196,7 @@
   },
   {
     "Country": "Italy",
+    "Population": "62008",
     "2014": 313,
     "2013": 344,
     "2012": 393,
@@ -197,6 +211,7 @@
   },
   {
     "Country": "Latvia",
+    "Population": "1966",
     "2014": 15,
     "2013": 11,
     "2012": 17,
@@ -211,6 +226,7 @@
   },
   {
     "Country": "Lithuania",
+    "Population": "2854",
     "2014": 87,
     "2013": 54,
     "2012": 70,
@@ -225,6 +241,7 @@
   },
   {
     "Country": "Luxembourg",
+    "Population": "582",
     "2014": 8,
     "2013": 11,
     "2012": 8,
@@ -239,6 +256,7 @@
   },
   {
     "Country": "Malta",
+    "Population": "415",
     "2014": 2,
     "2013": 3,
     "2012": 5,
@@ -253,6 +271,7 @@
   },
   {
     "Country": "Netherlands",
+    "Population": "17017",
     "2014": 123,
     "2013": 144,
     "2012": 118,
@@ -267,7 +286,8 @@
   },
   {
     "Country": "Poland",
-    "2014": "Insufficient data",
+    "Population": "38523",
+    "2014": null,
     "2013": 247,
     "2012": 227,
     "2011": 285,
@@ -281,6 +301,7 @@
   },
   {
     "Country": "Portugal",
+    "Population": "10834",
     "2014": 33,
     "2013": 22,
     "2012": 29,
@@ -288,13 +309,14 @@
     "2010": 52,
     "2009": 56,
     "2008": 94,
-    "2007": "Insufficient data",
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2007": null,
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Romania",
+    "Population": "21600",
     "2014": 33,
     "2013": 30,
     "2012": 28,
@@ -309,6 +331,7 @@
   },
   {
     "Country": "Slovakia",
+    "Population": "5446",
     "2014": 13,
     "2013": 27,
     "2012": 26,
@@ -323,6 +346,7 @@
   },
   {
     "Country": "Slovenia",
+    "Population": "1978",
     "2014": 28,
     "2013": 28,
     "2012": 26,
@@ -337,7 +361,8 @@
   },
   {
     "Country": "Spain",
-    "2014": "Insufficient data",
+    "Population": "48563",
+    "2014": null,
     "2013": 403,
     "2012": 383,
     "2011": 361,
@@ -351,6 +376,7 @@
   },
   {
     "Country": "Sweden",
+    "Population": "9881",
     "2014": 609,
     "2013": 460,
     "2012": 419,
@@ -364,8 +390,9 @@
     "2004": 188
   },
   {
-    "Country": "United Kingdom",
-    "2014": "Insufficient data",
+    "Country": "UK",
+    "Population": "64712",
+    "2014": null,
     "2013": 2449,
     "2012": 2178,
     "2011": 2197,

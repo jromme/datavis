@@ -11,11 +11,11 @@
     "2007": 4645,
     "2006": 4819,
     "2005": 4852,
-    "2004": "Insufficient data"
+    "2004": null
   },
   {
     "Country": "Bulgaria",
-    "2014": "Insufficient data",
+    "2014": null,
     "2013": 1826,
     "2012": 1906,
     "2011": 1568,
@@ -25,7 +25,7 @@
     "2007": 859,
     "2006": 741,
     "2005": 718,
-    "2004": "Insufficient data"
+    "2004": null
   },
   {
     "Country": "Croatia",
@@ -38,8 +38,8 @@
     "2008": 731,
     "2007": 826,
     "2006": 628,
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Cyprus",
@@ -53,10 +53,10 @@
     "2007": 20,
     "2006": 43,
     "2005": 37,
-    "2004": "Insufficient data"
+    "2004": null
   },
   {
-    "Country": "Czech Republic",
+    "Country": "Czech",
     "2014": 2034,
     "2013": 1910,
     "2012": 1652,
@@ -66,64 +66,64 @@
     "2008": 1341,
     "2007": 1220,
     "2006": 1332,
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Denmark",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
-    "2012": "Insufficient data",
-    "2011": "Insufficient data",
-    "2010": "Insufficient data",
-    "2009": "Insufficient data",
-    "2008": "Insufficient data",
-    "2007": "Insufficient data",
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2014": null,
+    "2013": null,
+    "2012": null,
+    "2011": null,
+    "2010": null,
+    "2009": null,
+    "2008": null,
+    "2007": null,
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Estonia",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
-    "2012": "Insufficient data",
-    "2011": "Insufficient data",
-    "2010": "Insufficient data",
-    "2009": "Insufficient data",
-    "2008": "Insufficient data",
-    "2007": "Insufficient data",
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2014": null,
+    "2013": null,
+    "2012": null,
+    "2011": null,
+    "2010": null,
+    "2009": null,
+    "2008": null,
+    "2007": null,
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Finland",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
-    "2012": "Insufficient data",
-    "2011": "Insufficient data",
-    "2010": "Insufficient data",
-    "2009": "Insufficient data",
-    "2008": "Insufficient data",
-    "2007": "Insufficient data",
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2014": null,
+    "2013": null,
+    "2012": null,
+    "2011": null,
+    "2010": null,
+    "2009": null,
+    "2008": null,
+    "2007": null,
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "France",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
-    "2012": "Insufficient data",
-    "2011": "Insufficient data",
+    "2014": null,
+    "2013": null,
+    "2012": null,
+    "2011": null,
     "2010": 721,
     "2009": 884,
     "2008": 1597,
     "2007": 1663,
     "2006": 1581,
     "2005": 2540,
-    "2004": "Insufficient data"
+    "2004": null
   },
   {
     "Country": "Germany",
@@ -137,7 +137,7 @@
     "2007": 33820,
     "2006": 31842,
     "2005": 25674,
-    "2004": "Insufficient data"
+    "2004": null
   },
   {
     "Country": "Greece",
@@ -151,7 +151,7 @@
     "2007": 194,
     "2006": 192,
     "2005": 317,
-    "2004": "Insufficient data"
+    "2004": null
   },
   {
     "Country": "Hungary",
@@ -161,25 +161,25 @@
     "2011": 749,
     "2010": 415,
     "2009": 460,
-    "2008": "Insufficient data",
-    "2007": "Insufficient data",
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2008": null,
+    "2007": null,
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Ireland",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
-    "2012": "Insufficient data",
-    "2011": "Insufficient data",
-    "2010": "Insufficient data",
-    "2009": "Insufficient data",
-    "2008": "Insufficient data",
-    "2007": "Insufficient data",
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2014": null,
+    "2013": null,
+    "2012": null,
+    "2011": null,
+    "2010": null,
+    "2009": null,
+    "2008": null,
+    "2007": null,
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Italy",
@@ -192,8 +192,8 @@
     "2008": 703,
     "2007": 763,
     "2006": 729,
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Latvia",
@@ -205,9 +205,9 @@
     "2009": 478,
     "2008": 628,
     "2007": 282,
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Lithuania",
@@ -220,22 +220,22 @@
     "2008": 308,
     "2007": 246,
     "2006": 196,
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Luxembourg",
-    "2014": "Insufficient data",
+    "2014": null,
     "2013": 8,
     "2012": 33,
     "2011": 32,
     "2010": 16,
     "2009": 36,
     "2008": 37,
-    "2007": "Insufficient data",
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2007": null,
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Malta",
@@ -247,28 +247,28 @@
     "2009": 33,
     "2008": 105,
     "2007": 67,
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Netherlands",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
-    "2012": "Insufficient data",
-    "2011": "Insufficient data",
-    "2010": "Insufficient data",
-    "2009": "Insufficient data",
-    "2008": "Insufficient data",
-    "2007": "Insufficient data",
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2014": null,
+    "2013": null,
+    "2012": null,
+    "2011": null,
+    "2010": null,
+    "2009": null,
+    "2008": null,
+    "2007": null,
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Poland",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
+    "2014": null,
+    "2013": null,
     "2012": 13021,
     "2011": 14487,
     "2010": 14011,
@@ -277,7 +277,7 @@
     "2007": 21135,
     "2006": 21694,
     "2005": 19680,
-    "2004": "Insufficient data"
+    "2004": null
   },
   {
     "Country": "Portugal",
@@ -291,21 +291,21 @@
     "2007": 73,
     "2006": 71,
     "2005": 85,
-    "2004": "Insufficient data"
+    "2004": null
   },
   {
     "Country": "Romania",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
-    "2012": "Insufficient data",
-    "2011": "Insufficient data",
-    "2010": "Insufficient data",
-    "2009": "Insufficient data",
-    "2008": "Insufficient data",
-    "2007": "Insufficient data",
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2014": null,
+    "2013": null,
+    "2012": null,
+    "2011": null,
+    "2010": null,
+    "2009": null,
+    "2008": null,
+    "2007": null,
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Slovakia",
@@ -317,9 +317,9 @@
     "2009": 291,
     "2008": 237,
     "2007": 120,
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Slovenia",
@@ -331,9 +331,9 @@
     "2009": 167,
     "2008": 272,
     "2007": 242,
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Spain",
@@ -345,27 +345,27 @@
     "2009": 4924,
     "2008": 5933,
     "2007": 6352,
-    "2006": "Insufficient data",
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2006": null,
+    "2005": null,
+    "2004": null
   },
   {
     "Country": "Sweden",
-    "2014": "Insufficient data",
-    "2013": "Insufficient data",
-    "2012": "Insufficient data",
-    "2011": "Insufficient data",
-    "2010": "Insufficient data",
+    "2014": null,
+    "2013": null,
+    "2012": null,
+    "2011": null,
+    "2010": null,
     "2009": 4151,
-    "2008": "Insufficient data",
-    "2007": "Insufficient data",
+    "2008": null,
+    "2007": null,
     "2006": 9100,
-    "2005": "Insufficient data",
-    "2004": "Insufficient data"
+    "2005": null,
+    "2004": null
   },
   {
-    "Country": "United Kingdom",
-    "2014": "Insufficient data",
+    "Country": "UK",
+    "2014": null,
     "2013": 9853,
     "2012": 9672,
     "2011": 10504,
@@ -375,6 +375,6 @@
     "2007": 14832,
     "2006": 13818,
     "2005": 13384,
-    "2004": "Insufficient data"
+    "2004": null
   }
 ]

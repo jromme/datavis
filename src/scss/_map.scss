@@ -10,9 +10,27 @@ $svgheight: 700px;
     transform: translate(#{$translate-diff}, 3%);
     g {
       path {
-        stroke: white;
-        fill: grey;
+        stroke: rgba(0,0,0,0.5);
+        fill: transition
       }
     }
+    .eu {
+      transition: 300ms ease;
+    }
+  }
+}
+
+.map #tooltip {
+  position: fixed;
+  z-index: 99;
+  background-color: black;
+  color: #DEDEDE;
+  width: 200px;
+  height: 50px;
+  text-align: right;
+  opacity: .7;
+  transition: 300ms ease;
+  p {
+    margin: 10% 4% 0 0;
   }
 }

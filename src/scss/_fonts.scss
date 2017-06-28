@@ -1,8 +1,9 @@
 $font-size-h1: 30px;
 $font-size-h2: 20px;
 $font-size-p1: 18px;
+$font-size-large: 50px;
 
-.alda, p {
+.alda, .gridItemCountry{
   font-family: 'alda';
   font-weight: 300;
   font-style: normal;
@@ -20,11 +21,19 @@ $font-size-p1: 18px;
   color: $font-color;
 }
 
-.rifth2, h2{
+.rifth2, #tooltip, .timelineTooltip, h2 {
   font-family: 'rift-soft';
   font-weight: 300;
   font-style: normal;
   font-size: $font-size-h2;
+  color: $font-color;
+}
+
+.gridItemGrade {
+  font-family: 'rift-soft';
+  font-weight: 300;
+  font-style: normal;
+  font-size: $font-size-large;
   color: $font-color;
 }
 

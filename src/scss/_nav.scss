@@ -1,12 +1,18 @@
 
 .main-nav {
   display: flex;
+  position: fixed;
+  margin-top: -30px;
+  z-index: 999;
   ul {
     justify-content: space-between;
     text-decoration: none;
     list-style-type: none;
     &:first-child {
       padding-left: 0;
+    }
+    .active {
+      border-bottom: 2px solid white;
     }
   }
 }

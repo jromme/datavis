@@ -6,7 +6,7 @@ const path = require('path');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'app.bundle.js'
@@ -20,6 +20,18 @@ module.exports = {
           use:['css-loader','sass-loader'],
           publicPath: '/dist'
         })
+      },
+      {
+        test: /\.js$/,
+        exclude: /node-modules/,
+        loader: 'babel-loader',
+        query: {
+          presets: ['es2015', 'es2016', 'react']
+        }
+      },
+      {
+        test: [/\.jsx$/],
+        loaders: ["jsx-loader?insertPragma=React.DOM&harmony"],
       }
     ]
   },

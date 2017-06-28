@@ -1,4 +1,14 @@
 
 .timeline {
-  border-top: 1px solid #8c8b8b;
+  width: 100%;
+  position: relative;
+  padding: 30px 300px;
+  background-color: #F6F6F6;
+  .timelineTooltip {
+    text-align: center;
+  }
+}
+
+#ex1Slider .slider-selection {
+  background: #BABABA;
 }
