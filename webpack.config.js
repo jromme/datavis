@@ -28,10 +28,6 @@ module.exports = {
         query: {
           presets: ['es2015', 'es2016', 'react']
         }
-      },
-      {
-        test: [/\.jsx$/],
-        loaders: ["jsx-loader?insertPragma=React.DOM&harmony"],
       }
     ]
   },

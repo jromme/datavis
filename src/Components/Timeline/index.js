@@ -5,6 +5,7 @@ export default class Timeline extends Component {
     render() {  
       return (
         <div className="timeline">
+          <div className="timelineTooltip">{this.props.value}</div>
           <input
               type="range"
               value={this.props.value}
@@ -12,7 +13,6 @@ export default class Timeline extends Component {
               max={2014}
               onChange={(e) => this.props.handler(e)}
               step={1} />
-          <div className="timelineTooltip">{this.props.value}</div>
         </div>
       )
     }

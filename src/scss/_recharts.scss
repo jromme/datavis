@@ -1,0 +1,28 @@
+.contentRechartsInfo {
+  font-size: 40px;
+  width: 400px;
+  margin: 0 auto;
+  color: $light-grey;
+  font-weight: 100;
+  border: 1px solid $light-grey;
+  padding: 0 10px 10px 20px;
+  margin-top: 50px;
+}
+
+.contentRecharts {
+  overflow-x: scroll; 
+  padding: 50px 30px 100px;
+  .recharts-wrapper {
+    font-size: 18px;
+    color: $color-grey;
+    .recharts-cartesian-axis-line, .yAxis .recharts-cartesian-axis-tick{
+      display: none;
+    }
+    .recharts-cartesian-grid-vertical line:nth-last-child(1) {
+      display: none;
+    }
+    .recharts-cartesian-grid-vertical line:nth-last-child(2) {
+      display: none;
+    }
+  }
+}

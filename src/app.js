@@ -13,10 +13,14 @@ export default class App extends Component {
     super(props)
 
     this.state = {
-      navitem: '',
+      navitem: 'nav-druguse',
       year: 2004,
       data: []
     }
+  }
+
+  componentDidMount() {
+    this.navHandler('nav-druguse')
   }
 
   timelineHandler(e) {
@@ -27,11 +31,10 @@ export default class App extends Component {
   navHandler(item) {
     const navitem = item
     const dataitem = navitem.replace('nav-', 'content_')
-    this.setState({ navitem })
-
     axios.get(`./data/${dataitem}.json`).then(x => {
       this.setState({
-        data: x.data
+        data: x.data,
+        navitem
       })
     })
   }
@@ -46,7 +49,7 @@ export default class App extends Component {
         </div>
         <Filter2 />
         {(this.state.navitem === 'nav-overdose-deaths' || this.state.navitem === 'nav-price' || this.state.navitem === 'nav-law-offences') && <Timeline handler={(e) => this.timelineHandler(e)} value={this.state.year} />}
-        <Content data={this.state.data} navitem={this.state.navitem} />
+        <Content data={this.state.data} navitem={this.state.navitem} year={this.state.year} />
       </div>
     )
   }

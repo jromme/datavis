@@ -24,13 +24,14 @@ $svgheight: 700px;
   position: fixed;
   z-index: 99;
   background-color: black;
-  color: #DEDEDE;
+  color: white;
   width: 200px;
   height: 50px;
   text-align: right;
-  opacity: .7;
+  opacity: 0;
   transition: 300ms ease;
   p {
+    color: $light-grey;
     margin: 10% 4% 0 0;
   }
 }

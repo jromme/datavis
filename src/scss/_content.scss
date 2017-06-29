@@ -4,6 +4,14 @@ $grid-item-size: 150px;
   background-color: black;
   width: 100%;
   margin-bottom: 50px;
+  overflow: hidden;
+  
+  #overflowing {
+    position: absolute;
+    background-color: black;
+    width: 100vw;
+    left: 0;
+  }
 
   .InfoGrid {
     padding: 35px 0;
@@ -14,12 +22,13 @@ $grid-item-size: 150px;
 
     @for $i from 1 through 27 {
       .gridItem:nth-child(#{$i}) {
+        opacity: 0;
         animation-name: moveIn;
         animation-duration: .5s;
         animation-iteration-count: 3;
         -webkit-animation-delay:(#{$i*0.1s}); 
-        animation-delay:(#{$i*0.1s}); 
-      }
+        animation-delay:(#{$i*0.1s});
+        animation-fill-mode: forwards;      }
     }
 
     @keyframes moveIn {
@@ -28,7 +37,7 @@ $grid-item-size: 150px;
     }
 
     .gridItem{ 
-      background-color: grey;
+      background-color: $light-grey;
       width: $grid-item-size;
       height: $grid-item-size;
       margin: 20px;
