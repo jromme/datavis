@@ -28,6 +28,10 @@ module.exports = {
         query: {
           presets: ['es2015', 'es2016', 'react']
         }
+      },
+      {
+        test: /\.png$/,
+        use: 'file-loader?name=[path][name].[ext]',
       }
     ]
   },

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Recharts from 'recharts'
 import { BarChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Bar, ScatterChart, Scatter } from 'recharts'
+import ShapeSkull from '../ShapeSkull'
 
 // const data = [
 //       {name: 'Page A', pv: 2400, amt: 2400},
@@ -48,7 +49,7 @@ export default class ChartComponent extends Component {
                 <CartesianGrid stroke='#3B3B3B' horizontal={false} />
                 <Tooltip cursor={false} animationDuration={100} animationEasing='ease-in-out'/>
                 <Legend iconType="star"/>
-                <Scatter name='Amount of Overdose Deaths' data={data} fill='#DEDEDE' shape="star"/>
+                <Scatter name='Amount of Overdose Deaths' data={data} fill='#DEDEDE' shape={<ShapeSkull />} />
               </ScatterChart>
             </div>
           </div>
@@ -70,7 +71,7 @@ export default class ChartComponent extends Component {
         }
         {type === 'lawoffences' && 
           <div>
-            <div className="contentRechartsInfo">The amount of law offences related to drug use</div>
+            <div className="contentRechartsInfo">The amount of drug-related law offences.</div>
             <div className="contentRecharts">
               <ScatterChart width={2500} height={600} margin={{top: 5, right: 30, bottom: 20, left: 5}}>
                 <XAxis dataKey={'Country'}/>

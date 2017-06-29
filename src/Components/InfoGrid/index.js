@@ -5,7 +5,7 @@ export default class InfoGrid extends Component {
     const { data } = this.props
     return (
       <div>
-        <div className="contentRechartsInfo">The average price of drugs in a country.</div>
+        <div className="contentRechartsInfo">Peoples' level of happiness.</div>
         <div className="InfoGrid">
         {data.sort((a, b) => b.total - a.total).map((x, i) =>
           <dl key={i} className="gridItem">
